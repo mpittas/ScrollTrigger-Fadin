@@ -1,0 +1,32 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #030304;
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+}
+
+/* Components */
+.wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 500px 0 1500px;
+}
+
+.text__inner {
+  background-image: linear-gradient(-45deg, rgba(255, 255, 255, 1) -100%, rgba(240, 240, 240, 0) 0%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.text__inner h2 {
+  font-size: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.text__inner p {
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+}
